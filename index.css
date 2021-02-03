@@ -1,7 +1,13 @@
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('static/fonts/fontawesome-webfont.eot?v=4.3.0');
-  src: url('static/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('static/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('static/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('static/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('static/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-family: "FontAwesome";
+  src: url("static/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("static/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0")
+      format("embedded-opentype"),
+    url("static/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+    url("static/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+    url("static/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+    url("static/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -27,7 +33,7 @@ html {
 }
 body {
   color: #333;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -297,7 +303,7 @@ header a:visited {
 }
 header a:hover,
 header a:active {
-  color: #A3D3D1;
+  color: #a3d3d1;
 }
 .contact-phone {
   padding-left: 28px;
